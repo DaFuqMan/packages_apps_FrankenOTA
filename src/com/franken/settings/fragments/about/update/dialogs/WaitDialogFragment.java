@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.dialogs;
+package com.franken.settings.fragments.about.update.dialogs;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -21,7 +21,7 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-import com.xtended.settings.R;
+import com.franken.settings.R;
 
 public class WaitDialogFragment extends DialogFragment {
 

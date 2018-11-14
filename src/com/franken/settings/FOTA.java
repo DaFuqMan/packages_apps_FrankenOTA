@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.xtended.settings;
+package com.franken.settings;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 
-import com.xtended.settings.fragments.about.update.configs.LinkConfig;
-import com.xtended.settings.fragments.about.update.dialogs.WaitDialogFragment;
-import com.xtended.settings.fragments.about.Update;
+import com.franken.settings.fragments.about.update.configs.LinkConfig;
+import com.franken.settings.fragments.about.update.dialogs.WaitDialogFragment;
+import com.franken.settings.fragments.about.Update;
 
-public class XOTA extends PreferenceActivity implements
+public class FOTA extends PreferenceActivity implements
         WaitDialogFragment.OTADialogListener, LinkConfig.LinkConfigListener {
 
     private static final String FRAGMENT_TAG = Update.class.getName();

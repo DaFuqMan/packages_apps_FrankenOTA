@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.configs;
+package com.franken.settings.fragments.about.update.configs;
 
 import android.content.Context;
 import android.os.SystemProperties;
 
-import com.xtended.settings.fragments.about.update.utils.OTAUtils;
+import com.franken.settings.fragments.about.update.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

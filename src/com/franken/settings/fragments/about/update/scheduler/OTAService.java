@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.scheduler;
+package com.franken.settings.fragments.about.update.scheduler;
 
 import android.content.Intent;
 import android.os.AsyncTask;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.xtended.settings.fragments.about.update.tasks.CheckUpdateTask;
-import com.xtended.settings.fragments.about.update.utils.OTAUtils;
+import com.franken.settings.fragments.about.update.tasks.CheckUpdateTask;
+import com.franken.settings.fragments.about.update.utils.OTAUtils;
 
 public class OTAService extends WakefulIntentService {
 
     public OTAService() {
-        super("XtendedOTA");
+        super("FrankenOTA");
     }
 
     @Override
     protected void doWakefulWork(Intent intent) {
         CheckUpdateTask otaChecker = CheckUpdateTask.getInstance(true);
         if (!otaChecker.getStatus().equals(AsyncTask.Status.RUNNING)) {
-            OTAUtils.logInfo("XtendedOTA scheduled check is running.");
+            OTAUtils.logInfo("FrankenOTA scheduled check is running.");
             otaChecker.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, getApplicationContext());
         }
     }

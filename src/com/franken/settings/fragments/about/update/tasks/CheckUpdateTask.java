@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.tasks;
+package com.franken.settings.fragments.about.update.tasks;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -26,17 +26,17 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.xtended.settings.fragments.about.Update;
-import com.xtended.settings.fragments.about.update.configs.AppConfig;
-import com.xtended.settings.fragments.about.update.configs.LinkConfig;
-import com.xtended.settings.fragments.about.update.configs.OTAConfig;
-import com.xtended.settings.fragments.about.update.configs.OTAVersion;
-import com.xtended.settings.fragments.about.update.dialogs.WaitDialogHandler;
-import com.xtended.settings.fragments.about.update.tasks.NotificationHelper;
-import com.xtended.settings.fragments.about.update.utils.OTAUtils;
-import com.xtended.settings.fragments.about.update.xml.OTADevice;
-import com.xtended.settings.fragments.about.update.xml.OTAParser;
-import com.xtended.settings.R;
+import com.franken.settings.fragments.about.Update;
+import com.franken.settings.fragments.about.update.configs.AppConfig;
+import com.franken.settings.fragments.about.update.configs.LinkConfig;
+import com.franken.settings.fragments.about.update.configs.OTAConfig;
+import com.franken.settings.fragments.about.update.configs.OTAVersion;
+import com.franken.settings.fragments.about.update.dialogs.WaitDialogHandler;
+import com.franken.settings.fragments.about.update.tasks.NotificationHelper;
+import com.franken.settings.fragments.about.update.utils.OTAUtils;
+import com.franken.settings.fragments.about.update.xml.OTADevice;
+import com.franken.settings.fragments.about.update.xml.OTAParser;
+import com.franken.settings.R;
 
 import org.xmlpull.v1.XmlPullParserException;
 
