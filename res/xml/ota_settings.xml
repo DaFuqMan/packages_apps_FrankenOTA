@@ -29,7 +29,7 @@
 
         <PreferenceScreen
             android:key="key_rom_info"
-            android:icon="@drawable/ic_franken_logo"/>
+            android:icon="@drawable/ic_system_update"/>
 
         <PreferenceScreen
             android:key="key_maintainer_info"
