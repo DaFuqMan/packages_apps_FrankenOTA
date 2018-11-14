@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.utils;
+package com.franken.settings.fragments.about.update.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,7 +22,7 @@ import android.os.SystemProperties;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.xtended.settings.fragments.about.update.configs.OTAConfig;
+import com.franken.settings.fragments.about.update.configs.OTAConfig;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -36,7 +36,7 @@ import java.util.Properties;
 
 public final class OTAUtils {
 
-    private static final String TAG = "XtendedOTA";
+    private static final String TAG = "FrankenOTA";
     private static final boolean DEBUG = true;
 
     private OTAUtils() {

@@ -7,7 +7,7 @@
 # * Chances are you only need to change the ota_url in this file 
 #
 ota_url=https://raw.githubusercontent.com/Xtended-Pie/vendor_xtended_DevicesOTA/xp/ota.xml
-device_name=ro.xtended.device
+device_name=ro.franken.device
  
 #
 # VERSION
@@ -16,7 +16,7 @@ device_name=ro.xtended.device
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.modversion' : Parse the date 20180612 from 'xtended-oneplus3-20181018-XP-1-OFFICIAL.zip'
+# Example with a property key 'ro.modversion' : Parse the date 20180612 from 'Franken_Rom-16.0.-20181113-OFFICIAL-mido.zip'
 #
 # Version source: ro.modversion
 # Version delimiter: -

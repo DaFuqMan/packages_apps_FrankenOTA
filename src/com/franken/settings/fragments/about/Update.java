@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about;
+package com.franken.settings.fragments.about;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -27,14 +27,14 @@ import android.support.v7.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.xtended.settings.R;
-import com.xtended.settings.fragments.about.update.configs.AppConfig;
-import com.xtended.settings.fragments.about.update.configs.LinkConfig;
-import com.xtended.settings.fragments.about.update.configs.OTAVersion;
-import com.xtended.settings.fragments.about.update.dialogs.WaitDialogFragment;
-import com.xtended.settings.fragments.about.update.tasks.CheckUpdateTask;
-import com.xtended.settings.fragments.about.update.utils.OTAUtils;
-import com.xtended.settings.fragments.about.update.xml.OTALink;
+import com.franken.settings.R;
+import com.franken.settings.fragments.about.update.configs.AppConfig;
+import com.franken.settings.fragments.about.update.configs.LinkConfig;
+import com.franken.settings.fragments.about.update.configs.OTAVersion;
+import com.franken.settings.fragments.about.update.dialogs.WaitDialogFragment;
+import com.franken.settings.fragments.about.update.tasks.CheckUpdateTask;
+import com.franken.settings.fragments.about.update.utils.OTAUtils;
+import com.franken.settings.fragments.about.update.xml.OTALink;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.List;
@@ -341,6 +341,6 @@ public class Update extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XTENDED;
+        return MetricsProto.MetricsEvent.FRANKEN;
      }
 }

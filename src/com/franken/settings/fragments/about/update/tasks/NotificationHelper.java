@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.tasks;
+package com.franken.settings.fragments.about.update.tasks;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -24,8 +24,8 @@ import android.content.ContextWrapper;
 import android.content.Intent;
 import android.graphics.Color;
 
-import com.xtended.settings.XOTA;
-import com.xtended.settings.R;
+import com.franken.settings.FOTA;
+import com.franken.settings.R;
 
 /**
  * Helper class to manage notification channels, and create notifications.
@@ -44,12 +44,12 @@ class NotificationHelper extends ContextWrapper {
         super(context);
 
         NotificationChannel chan = new NotificationChannel(PRIMARY_CHANNEL,
-                "XtendedOTA", NotificationManager.IMPORTANCE_DEFAULT);
+                "FrankenOTA", NotificationManager.IMPORTANCE_DEFAULT);
         chan.setLightColor(Color.GREEN);
         chan.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
         getManager().createNotificationChannel(chan);
 
-        Intent intent = new Intent(context, XOTA.class);
+        Intent intent = new Intent(context, FOTA.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         pendingIntent = PendingIntent.getActivity(context, 0, intent,
                 PendingIntent.FLAG_ONE_SHOT);

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.configs;
+package com.franken.settings.fragments.about.update.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -21,9 +21,9 @@ import android.content.Context;
 import com.commonsware.cwac.wakeful.WakefulIntentService;
 
 import android.provider.Settings;
-import com.xtended.settings.R;
-import com.xtended.settings.fragments.about.update.scheduler.OTAListener;
-import com.xtended.settings.fragments.about.update.utils.OTAUtils;
+import com.franken.settings.R;
+import com.franken.settings.fragments.about.update.scheduler.OTAListener;
+import com.franken.settings.fragments.about.update.utils.OTAUtils;
 
 import android.content.ContentResolver;
 

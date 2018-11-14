@@ -17,8 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- OTA -->
-    <string name="ota_xtended_title">Updates</string>
-    <string name="ota_xtended_summary">Check for OTA update and links for your device</string>
+    <string name="ota_franken_title">Updates</string>
+    <string name="ota_franken_summary">Check for OTA update and links for your device</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>

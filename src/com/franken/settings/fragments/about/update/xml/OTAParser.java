@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 MSM-Xtended Project
+ * Copyright (C) 2018 Franken Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.xtended.settings.fragments.about.update.xml;
+package com.franken.settings.fragments.about.update.xml;
 
 import android.content.Context;
 import android.util.Xml;
@@ -24,8 +24,8 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 import java.io.InputStream;
 
-import com.xtended.settings.fragments.about.update.configs.OTAVersion;
-import com.xtended.settings.R;
+import com.franken.settings.fragments.about.update.configs.OTAVersion;
+import com.franken.settings.R;
 
 public class OTAParser {
 

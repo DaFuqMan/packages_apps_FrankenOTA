@@ -16,20 +16,20 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/ota_xtended_title"
+    android:title="@string/ota_franken_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceScreen
-        android:key="xtended_header"
+        android:key="franken_header"
         android:enabled="false"
-        android:layout="@layout/about_xtended_header_ota" />
+        android:layout="@layout/about_franken_header_ota" />
 
     <PreferenceCategory
         android:title="@string/ota_category">
 
         <PreferenceScreen
             android:key="key_rom_info"
-            android:icon="@drawable/ic_xtnd_logo"/>
+            android:icon="@drawable/ic_franken_logo"/>
 
         <PreferenceScreen
             android:key="key_maintainer_info"

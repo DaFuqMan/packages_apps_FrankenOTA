@@ -20,7 +20,7 @@
         <ImageView
            android:layout_width="match_parent"
            android:layout_height="100dp"
-           android:src="@drawable/ic_xtended_about"
+           android:src="@drawable/ic_franken_about"
            android:tint="?android:attr/colorAccent"
            android:scaleType="centerInside"
            android:adjustViewBounds="true" />
